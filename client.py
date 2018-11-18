@@ -20,6 +20,7 @@ window.show()
 
 # Event handlers:
 def refresh_messages():
+    """ Testing doc string """
     text_area.setHtml(requests.get(chat_url).text)
 
 def send_message():
